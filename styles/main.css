@@ -179,3 +179,55 @@ a {
     font-size: 14px;
     font-weight: 400;
 }
+
+/* giving */
+
+/* celebrate */
+
+.celebrate {
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+
+.celebrate__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.celebrate__content {
+    width: 372px;
+}
+
+.celebrate__title-wrapper {
+    width: 235px;
+    margin-bottom: 24px;
+}
+
+.celebrate__title {
+    color: var(--title-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.celebrate__desc {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.celebrate__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 183px;
+    height: 40px;
+    border-radius: 64px;
+    background: var(--first-color, #DC3845);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* celebrate */
