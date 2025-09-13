@@ -74,3 +74,51 @@ a {
 /* header */
 
 /* hero */
+
+.hero {
+    padding-top: 64px;
+    padding-bottom: 56px;
+}
+
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__content {
+    width: 450px;
+}
+
+.hero__title {
+    color: var(--title-color);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 16px;
+}
+
+.hero__desc-wrapper {
+    width: 380px;
+    margin-bottom: 48px;
+}
+
+.hero__link {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 148px;
+    height: 48px;
+    text-align: center;
+    border-radius: 64px;
+    background: var(--first-color, #DC3845);
+}
+
+/* hero */
