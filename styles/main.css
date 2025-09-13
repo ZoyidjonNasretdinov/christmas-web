@@ -122,3 +122,60 @@ a {
 }
 
 /* hero */
+
+/* giving */
+
+.giving {
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+
+.giving__wrapper {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.giving__title-wrapper {
+    width: 205px;
+    margin: 0 auto 56px;
+    
+}
+
+.giving__title {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.giving__list {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 128px;
+}
+
+.giving__item {
+    width: 142px;
+}
+
+.giving__img {
+    margin: 0 auto 12px;
+}
+
+.giving__subtitle {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.giving__desc {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
