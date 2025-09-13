@@ -1,0 +1,76 @@
+:root {
+    --title-color:#282525;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+body {
+    
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1008px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* header  */
+
+.site-header {
+    padding: 24px 0;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-right: 48px;
+}
+
+.nav__link {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dark-mode-toggle {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-image: url("../assets/svg/moon.svg");
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+/* header */
+
+/* hero */
