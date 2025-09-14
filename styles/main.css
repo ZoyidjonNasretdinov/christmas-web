@@ -399,3 +399,57 @@ a {
 }
 
 /* gift */
+
+/* contact */
+
+.contact {
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
+
+.contact__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 121px 30px 152px;
+    border-radius: 32px;
+    background: var(--first-color, #DC3845);
+}
+
+.contact__title-wrapper {
+    width: 208px;
+    margin-bottom: 24px;
+}
+
+.contact__title {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.contact__input {
+    width: 264px;
+    padding: 18px 24px;
+    border: none;
+    flex-shrink: 0;
+    border-radius: 64px;
+    background: #FFF;
+}
+
+.contact__btn {
+    color: #FFF;
+    text-align: center;
+    width: 143px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 64px;
+    background: var(--title-color, #282525);
+}
+
+/* c0ntact */
